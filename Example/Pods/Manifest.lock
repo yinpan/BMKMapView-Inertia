@@ -1,0 +1,27 @@
+PODS:
+  - Aspects (1.4.1)
+  - BaiduMapKit (4.1.1)
+  - BMKMapView-Inertia (0.1.0):
+    - Aspects
+    - BaiduMapKit (~> 4.1.1)
+
+DEPENDENCIES:
+  - BMKMapView-Inertia (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Aspects
+    - BaiduMapKit
+
+EXTERNAL SOURCES:
+  BMKMapView-Inertia:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BaiduMapKit: 51bba432a28316680676b4d453a70e5031f3a7eb
+  BMKMapView-Inertia: c90a4783f4bc7de28e2082a3e81ee9153b161ee6
+
+PODFILE CHECKSUM: 7eabfd162d8f321f6a0ab01a3dacace2ad37314b
+
+COCOAPODS: 1.6.0.beta.2

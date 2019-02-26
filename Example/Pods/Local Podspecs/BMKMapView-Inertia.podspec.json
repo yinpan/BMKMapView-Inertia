@@ -1,0 +1,36 @@
+{
+  "name": "BMKMapView-Inertia",
+  "module_name": "BMKMapView_Inertia",
+  "version": "0.1.0",
+  "summary": "The `BMKMapView-Inertia` is an extension of the `BMKMapView`.",
+  "description": "The `BMKMapView-Inertia` is an extension of the `BMKMapView`.It can add inertia effect for the BaiduMap When zooming in or out.",
+  "homepage": "https://github.com/yinpan/BMKMapView-Inertia",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yinpan": "yinpans@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/yinpan/BMKMapView-Inertia.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BMKMapView-Inertia/Classes/*.{swift,h}",
+  "dependencies": {
+    "BaiduMapKit": [
+      "~> 4.1.1"
+    ],
+    "Aspects": [
+
+    ]
+  },
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -undefined dynamic_lookup -ObjC"
+  },
+  "prepare_command": "sh execute_modulemap.sh Example/Pods/BaiduMapKit"
+}

@@ -1,0 +1,6 @@
+framework module BMKMapView_Inertia {
+  umbrella header "BMKMapView-Inertia-umbrella.h"
+
+  export *
+  module * { export * }
+}
